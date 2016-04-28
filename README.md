@@ -33,4 +33,5 @@ By default we search **ONLY** for **healthy** service nearest to the agent.
 If you want this behavior to change open a issue and let's talk about it.
 
 ## TODO
-Add more features to the SDK.
+* **TEST, TEST, TEST!!!**
+* Add more features to the SDK.
