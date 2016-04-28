@@ -1,0 +1,35 @@
+{
+  "name": "jcalderonzumba/consul-discovery",
+  "description": "Consul service discovery made easy",
+  "keywords": [
+    "consul",
+    "service discovery",
+    "devops"
+  ],
+  "homepage": "https://github.com/jcalderonzumba/consul-discovery",
+  "type": "consul-sdk",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Juan Francisco Calderón Zumba",
+      "email": "juanfcz@gmail.com",
+      "homepage": "http://github.com/jcalderonzumba"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zumba\\Consul\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
